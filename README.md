@@ -1,6 +1,16 @@
-# Any2Track: Tracking Any Motion under Any Disturbance
+<div align="center">
+  <h1 align="center"> OpenTrack </h1>
+  <h3 align="center"> GALBOT · Tsinghua </h3>
+<!--   <p align="center">
+    <a href="README.md"> English </a> | <a href="README_zh.md">中文</a>
+  </p>     -->
 
-This repository is the official implementation of Any2Track.
+[中文](README_zh.md) | [English](README.md)
+
+:page_with_curl:[Paper](https://www.arxiv.org/pdf/2505.10918) | :house:[Website](https://zzk273.github.io/R2S2/) | :film_projector:[Video](https://www.youtube.com/watch?v=EmWLJROMeB0)
+
+
+This repository is the official implementation of OpenTrack, an open-source humanoid motion tracking codebase that uses MuJoCo for simulation and supports multi-GPU parallel training.
 
 ## Installation ##
 
