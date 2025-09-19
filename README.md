@@ -11,12 +11,13 @@
 
 
 This repository is the official implementation of OpenTrack, an open-source humanoid motion tracking codebase that uses MuJoCo for simulation and supports multi-GPU parallel training.
+</div>
 
-## Installation ##
+# Prepare
 
 1. Clone the repository:
    ```shell
-   git clone git@github.com:GalaxyGeneralRobotics/Any2Track.git
+   git clone git@github.com:GalaxyGeneralRobotics/OpenTrack.git
    ```
 
 2. Create a virtual environment and install dependencies:
