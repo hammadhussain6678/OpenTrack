@@ -562,6 +562,8 @@ class G1TrackingEnv(g1_base.G1Env):
                 if not traj.data.is_complete:
                     self._th_params = dict(random_start=False, fixed_start_conf=(0, 0))
                     traj = self.extend_motion(traj)
+                    traj.info.model = traj.info.model.to_numpy()
+                    traj.data = traj.data.to_numpy()
                     traj.save(traj_path)  # save trajectory before recalculating velocity
 
                 # recalculate velocity
