@@ -22,7 +22,7 @@ This repository is the official implementation of OpenTrack, an open-source huma
    ```shell
    conda create -n any2track python=3.12
    conda activate any2track
-   # Install torch to convert JAX to ONNX. We don't require the GPU version of torch, but you can install any version as you like.
+   # Install torch to convert JAX to Torch. We don't require the GPU version of torch, but you can install any version as you like.
    pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
    pip install -r requirements.txt
    ```
@@ -46,7 +46,6 @@ This repository is the official implementation of OpenTrack, an open-source huma
 
 1. Train the model
    ```shell
-   source .venv/bin/activate; source .env;
    # Train on a flat terrain:
    python train_policy.py --exp_name flat_terrain --terrain_type flat_terrain
    # Train on a rough terrain:
