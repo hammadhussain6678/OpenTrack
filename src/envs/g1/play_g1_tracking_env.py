@@ -242,8 +242,7 @@ class PlayG1TrackingEnv:
             state.info["last_motor_targets"] = motor_targets.copy()
 
             for _ in range(int(self.dt / self.sim_dt)):
-                torques = consts.KPs * (motor_targets - self.mj_data.qpos[7:]) + consts.KDs * (-self.mj_data.qvel[6:])
-                self.mj_data.ctrl[:] = torques
+                self.mj_data.ctrl[:] = motor_targets
                 mujoco.mj_step(self.mj_model, self.mj_data)
 
         # view or render
