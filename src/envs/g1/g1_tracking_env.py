@@ -560,7 +560,6 @@ class G1TrackingEnv(g1_base.G1Env):
                 traj = Trajectory.load(traj_path, backend=np)
 
                 if not traj.data.is_complete:
-                    self._th_params = dict(random_start=False, fixed_start_conf=(0, 0))
                     traj = self.extend_motion(traj)
                     traj.info.model = traj.info.model.to_numpy()
                     traj.data = traj.data.to_numpy()
@@ -595,7 +594,7 @@ class G1TrackingEnv(g1_base.G1Env):
         traj_data, traj_info = interpolate_trajectories(traj.data, traj.info, 1.0 / self.dt)
         traj = Trajectory(info=traj_info, data=traj_data)
 
-        self.th = self.load_trajectory(traj, warn=False)
+        self.th = TrajectoryHandler(model=self._mj_model, warn=True, traj=traj, control_dt=self.dt, random_start=False, fixed_start_conf=(0, 0))
         traj_data, traj_info = self.th.traj.data, self.th.traj.info
 
         callback = ExtendTrajData(self, model=self._mj_model, n_samples=traj_data.n_samples)
